@@ -1,7 +1,7 @@
 // Question 01
-/*
-let number1 = +prompt("Enter any Number");
-let number2 = +prompt("Again enter any number");
+///*
+let number1 = +prompt("For checking larger number between two Numbers Enter the First Number");
+let number2 = +prompt("Now Enter The Second  Number");
 
 if (number1 > number2){
    console.log("This number "+ number1 +" is larger");
@@ -14,8 +14,8 @@ if (number1 > number2){
 };
 //*/
 // Question 02
-/*
-let userInput = +prompt(" Enter any number");
+///*
+let userInput = +prompt(" Enter any number for checking sign ");
 let condition = userInput*10;
 let  result = condition - userInput; 
 if (condition > result){
@@ -25,10 +25,10 @@ if (condition > result){
 }else{
     alert("Try again ther i s some thing wrong");
 };
-*/
+//*/
 
 // Question 03
-/*
+///*
 let userInput1 = +prompt("Enter any number");
 let userInput2 = +prompt("Enter any number");
 let userInput3 = +prompt("Enter any number");
@@ -49,9 +49,9 @@ console.log("All input values are same " + userInput1 );
 }else{
   console.log("try again");
 }; 
-*/
+//*/
 // Question 04
-/*
+///*
 for(i=0;i <= 15; i++ ){
 
 if(i%2===0 ){
@@ -62,10 +62,10 @@ if(i%2===0 ){
   console.log(i+" is odd ");
 }
 };
-*/
+//*/
 //Question  05
-/*
-let averageMark = +prompt("Enter your obtaining ");
+///*
+let averageMark = +prompt("Enter your obtaining Marks ");
 if(averageMark<60){
   document.write("The grade is F ");
   console.log("The grade is F");
@@ -85,24 +85,24 @@ if(averageMark<60){
   document.write("try again ");
   console.log("there is some problem ");
 };
-*/
+//*/
 // Question 06
- /*
+ ///*
 for(i=1; i <= 100; i++){
  if(i%3===0){
-  document.write(" Fizz ");
-  console.log("Fizz");
+  //document.write(" Fizz " + i);
+  console.log("Fizz "+i);
  }else if (i%5===0){
-  document.write(" Buzz ");
-  console.log("Buzz");
+  //document.write(" Buzz "+i);
+  console.log("Buzz "+i);
  } else {
-  document.write("FizzBuzz");
-  console.log("FizzBuzz ");
+  //document.write("FizzBuzz "+i);
+  console.log("FizzBuzz " +i);
  }
 };
-  */
+  //*/
 // Question 07
-/*
+///*
 let time = 5;
 for (let i = 1; i <= time; i++) {
   let line = "";
@@ -110,5 +110,5 @@ for (let i = 1; i <= time; i++) {
     line += "*";
   }
   console.log(line);
-} ;
-*/
+};
+//*/
