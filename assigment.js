@@ -4,16 +4,15 @@ let number1 = +prompt("Enter any Number");
 let number2 = +prompt("Again enter any number");
 
 if (number1 > number2){
-   console.log("This number "+ number1 +" is larger);
+   console.log("This number "+ number1 +" is larger");
 }else if (number2 > number1){
-  console.log("This number "+ number2 +" is larger );
+  console.log("This number "+ number2 +" is larger ");
 } else if (number1 === number2 ){
   console.log("Both number are equal--> " + number1 + " = " + number2);
 }else{
     console.log("Try again with ineger like 1, 2 ,3,.... and so on");
-}
-*/
-
+};
+//*/
 // Question 02
 /*
 let userInput = +prompt(" Enter any number");
@@ -25,7 +24,7 @@ if (condition > result){
     alert("The sign is - " );
 }else{
     alert("Try again ther i s some thing wrong");
-}
+};
 */
 
 // Question 03
@@ -35,11 +34,21 @@ let userInput2 = +prompt("Enter any number");
 let userInput3 = +prompt("Enter any number");
 let userInput4 = +prompt("Enter any number");
 let userInput5 = +prompt("Enter any number");
-if(){
-
-}else if (){
-
-}
+if(userInput1===userInput2 & userInput2===userInput3 & userInput3===userInput4 & userInput4===userInput5){
+console.log("All input values are same " + userInput1 );
+}else if(userInput2<=userInput1 & userInput3<=userInput1 & userInput4 <= userInput1 & userInput5<=userInput1){
+  console.log("the larges number is " + userInput1);
+}else if (userInput1<=userInput2 & userInput3<=userInput2 & userInput4<=userInput2 & userInput5 <= userInput2){
+  console.log("the larges number is " + userInput2);
+}else if (userInput1<=userInput3 & userInput2<=userInput3 & userInput4<=userInput3 & userInput5<=userInput3){ 
+  console.log("the larges number is " + userInput3);
+}else if(userInput1<=userInput4 & userInput2<=userInput4 & userInput3<=userInput4 & userInput5<=userInput4){
+  console.log("the larges number is " + userInput4);
+}else if(userInput1<=userInput5 & userInput2<=userInput5 & userInput3 <= userInput5 & userInput4<=userInput5){
+  console.log("the larges number is " + userInput5);
+}else{
+  console.log("try again");
+}; 
 */
 // Question 04
 /*
@@ -52,9 +61,9 @@ if(i%2===0 ){
   document.write(i+" is odd -> ");
   console.log(i+" is odd ");
 }
-}
+};
 */
-//Question 5
+//Question  05
 /*
 let averageMark = +prompt("Enter your obtaining ");
 if(averageMark<60){
@@ -75,7 +84,7 @@ if(averageMark<60){
 }else {
   document.write("try again ");
   console.log("there is some problem ");
-}
+};
 */
 // Question 06
  /*
@@ -90,9 +99,10 @@ for(i=1; i <= 100; i++){
   document.write("FizzBuzz");
   console.log("FizzBuzz ");
  }
-}
+};
   */
-// Question
+// Question 07
+/*
 let time = 5;
 for (let i = 1; i <= time; i++) {
   let line = "";
@@ -100,4 +110,5 @@ for (let i = 1; i <= time; i++) {
     line += "*";
   }
   console.log(line);
-}
+} ;
+*/
