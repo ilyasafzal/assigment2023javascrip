@@ -78,3 +78,26 @@ if(averageMark<60){
 }
 */
 // Question 06
+ /*
+for(i=1; i <= 100; i++){
+ if(i%3===0){
+  document.write(" Fizz ");
+  console.log("Fizz");
+ }else if (i%5===0){
+  document.write(" Buzz ");
+  console.log("Buzz");
+ } else {
+  document.write("FizzBuzz");
+  console.log("FizzBuzz ");
+ }
+}
+  */
+// Question
+let time = 5;
+for (let i = 1; i <= time; i++) {
+  let line = "";
+  for (let j = 1; j <= i; j++) {
+    line += "*";
+  }
+  console.log(line);
+}
